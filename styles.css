@@ -1,0 +1,44 @@
+body {
+  margin: 10px 0;
+  padding: 0 5px;
+  text-align: center;
+  align-content: center;
+}
+
+.section-container {
+  display: grid;
+}
+
+.line2 {
+  width: 700px;
+  height: 8px;
+}
+
+header nav ul li {
+  list-style: none;
+  float: left;
+  color: white;
+  width: 33%;
+  background: olive;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+.section-container {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  /* padding: 2% 10% 8% 10%; */
+  float: left;
+}
+.footer {
+  height: 10px;
+  background-color: aqua;
+}
+.ftr-text {
+  float: left;
+}
+.ftr-links {
+  float: right;
+}
