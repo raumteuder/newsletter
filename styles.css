@@ -12,7 +12,7 @@ body {
   width: 700px;
   height: 8px;
 }
-.nav {
+nav {
   height: 5px;
   width: 820px;
   align-items: center;
@@ -20,14 +20,14 @@ body {
   text-align: center;
 }
 
-.nav ul li {
+nav ul li {
   list-style: none;
   float: left;
   color: white;
   width: 30%;
   background: olive;
 }
-.nav ul li a {
+nav ul li a {
   color: white;
 }
 
