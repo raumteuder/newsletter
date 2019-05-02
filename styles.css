@@ -1,8 +1,7 @@
 body {
-  margin: 10px 0;
   padding: 0 5px;
   text-align: center;
-  align-content: center;
+  /* align-content: center; */
 }
 
 .section-container {
@@ -13,16 +12,21 @@ body {
   width: 700px;
   height: 8px;
 }
+.nav {
+  height: 5px;
+  width: 820px;
+  align-items: center;
+  padding-left: 19%;
+}
 
-header nav ul li {
+.nav ul li {
   list-style: none;
   float: left;
   color: white;
-  width: 33%;
+  width: 30%;
   background: olive;
 }
-
-header nav ul li a {
+.nav ul li a {
   color: white;
 }
 
